@@ -34,6 +34,7 @@ Of the positive aspects of my character, I would like to note poise, initiative 
 > Return the values as a string-seperated sentence in the order of their keys' integer equivalent (increasing order).
 
 > The keys are not reoccurring and their range is `-999 < key < 999`. The dictionaries' keys & values will always be strings and will always not be empty.
+
 ```JavaScript
 function sentence(List) {
   List.sort(function(a, b){
@@ -45,14 +46,17 @@ function sentence(List) {
   return paragraf.trim();
 }
 ```
+
 ## Experience
 ### The add-on for Google Sheets
 * [Create exam tickets in Google Docs](https://www.youtube.com/watch?v=kQQqCf1qC6I&t "Create exam tickets in Google Docs")
 * [Online exam in Google Classroom managed by Google Sheets](https://www.youtube.com/watch?v=c87C3BwvrF4 "Online exam in Google Classroom managed by Google Sheets")
+
 ## Education
 * University: `Brest State Technical University`
 * Graduate School: `PhD in Engineering sciences`
 * Epol Soft: `IT LAB - practice-oriented training`
 * Code Basics: `HTML` `CSS`
+
 ## English
 English level - `A1`
