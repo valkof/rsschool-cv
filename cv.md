@@ -8,7 +8,6 @@
 | Phone | +375 (29) 801-79-31 | Discord | Valery (@valkof) |
 | E-mail | vakofanov@g.bstu.by | GitHub | [valkof](https://github.com/valkof "valkof") |
 | Site | [BSTU](https://iipm.bstu.by/?cat=11 "Department") | YouTube | [Kofanov Valery Anatolievich](https://www.youtube.com/channel/UC__bwua8kM4qmIgU7dxJbog/featured "Working channel") |
-| | | |
 
 ## About Me
 I work as an assistant professor at the Brest State Technical University at the Department of Informatics and Applied Mathematics. I teach disciplines in information technology at the Faculty of Civil Engineering and Economics.
@@ -27,7 +26,6 @@ Of the positive aspects of my character, I would like to note poise, initiative 
 |  | `Google Apps Script` |  |
 | Desktop Aplication | `Microsoft Office (incl. VBA)` | `Word`, `Excel`, `PowerPoint`, `Access` |
 |  | `Parametric Technology Corporation` | `MathCAD (incl. programming)` |
-|  |  |  |
 
 ## Code Examples
 ### 7 kyu
