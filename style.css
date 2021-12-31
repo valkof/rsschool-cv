@@ -1,4 +1,54 @@
-p {
-    color: brown;
+* {
+    box-sizing: border-box;
+}
+
+a, a:visited {
+    text-decoration: none;
     font-weight: bold;
+    color: rgb(14, 80, 155);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    
+}
+
+header {
+    background-color: rgba(230, 224, 224, 0.575);
+    width: 100vw;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px;
+}
+
+.menu li a, p {
+    font-weight: bold;
+    color: rgb(14, 80, 155);
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(230, 224, 224, 0.575);
+    width: 100vw;
+}
+
+@media (min-width: 1000px) {
+    header, footer {
+        max-width: 1000px;
+    }
 }
