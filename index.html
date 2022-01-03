@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Valery Kofanov - CV</title>
+</head>
+<body>
+  <header>
+    <div class="menu_mobile">
+      <span class="material-icons mobile">menu</span>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#contacts" title="Contacts">Contacts</a></li>
+        <li><a href="#skills" title="Skills">Skills</a></li>
+        <li><a href="#education" title="Education">Education</a></li>
+        <li><a href="#projects" title="Projects">Projects</a></li>
+        <li><a href="#codes" title="Code">Code</a></li>
+        <li><a href="#english" title="English">English</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="first">
+      <h2 style="display: none;">My foto</h2>
+      <img class="foto" src="./assets/img/KofanovVA.jpg" title="Valery Kofanov" alt="foto Valery Kofanov">
+    </section>
+    <section>
+      <h1>Valery Kofanov</h1>
+      <p>I work as an assistant professor at the Brest State Technical University at the Department of Informatics and Applied Mathematics. I teach disciplines in information technology at the Faculty of Civil Engineering and Economics.</p>
+      <p>The purpose of my training on the course is to gain new and consolidate the already accumulated knowledge in the field of creating web applications. I hope that new knowledge will help me to realize my creative ideas.</p>
+      <p>Of the positive aspects of my character, I would like to note poise, initiative and conscientiousness, and of the negative aspects - reliability.</p>
+    </section>
+    <section id="contacts">
+      <h2>Contacts</h2>
+      <ul class="list">
+        <li><span class="material-icons">location_on</span>Location: Brest, Belarus</li>
+        <li><span class="material-icons">send</span>Telegram: @valkofant</li>
+        <li><span class="material-icons">headset_mic</span>Discord: Valery (@valkof)</li>
+        <li><span class="material-icons">email</span>E-mail: vakofanov@g.bstu.by</li>
+        <li><span class="material-icons">hub</span>GitHub: <a href="https://github.com/valkof" title="valkof">valkof</a></li>
+        <li><span class="material-icons">web</span>Site: <a href="https://iipm.bstu.by/?cat=11" title="iipm">iipm.bstu.by</a></li>
+        <li><span class="material-icons">videocam</span>YouTube: <a href="https://www.youtube.com/channel/UC__bwua8kM4qmIgU7dxJbog/featured" title="Working channel">Valery Kofanov</a></li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Google Apps Script</li>
+        <li>Visual Basic for Applications</li>
+      </ul>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><b>University:</b> Brest State Technical University</li>
+        <li><b>Graduate School:</b> PhD in Engineering sciences</li>
+        <li><b>Epol Soft:</b> IT LAB - practice-oriented training</li>
+        <li><b>Basics:</b> HTML - CSS - JS</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>GitHub</p>
+      <ul>
+        <li><a href="https://github.com/valkof/rsschool-cv">Create CV (сurriculum vitae)</a></li>
+      </ul>
+      <p>Google Sheets add-ons:</p>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=kQQqCf1qC6I&t" title="Create exam tickets in Google Docs">Create exam tickets in Google Docs</a></li>
+        <li><a href="https://www.youtube.com/watch?v=c87C3BwvrF4" title="Online exam in Google Classroom managed by Google Sheets">Online exam in Google Classroom managed by Google Sheets</a></li>
+      </ul>
+    </section>
+    <section id="codes">
+      <h2>Code</h2>
+      <pre>
+        <code>
+function sentence(List) {
+  List.sort(function(a, b){
+    return Number(Object.keys(a)[0])
+    - Number(Object.keys(b)[0])
+  });
+  var paragraf = List.reduce(
+  function(text, word){
+    return text + ' '
+    + word[Object.keys(word)[0]]; 
+  }, '');
+  return paragraf.trim();
+}
+        </code>
+      </pre>
+    </section>
+    <section id="english">
+      <h2>English</h2>
+      <p>English level - A1</p>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/valkof" title="@valkof">@valkof</a>
+    <p>2022</p>
+    <a href="https://rs.school/js-stage0/" title="JS/FE Stage 0">
+      <img src="https://rs.school/images/rs_school_js.svg" alt="Logo rsshool" width="70">
+    </a>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
