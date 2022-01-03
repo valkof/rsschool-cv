@@ -14,10 +14,10 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0px;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    
+    font-size: 20px;
+    text-align: justify;
 }
 
 header {
@@ -33,10 +33,63 @@ header {
     margin: 0px;
 }
 
-.menu li a, p {
-    font-weight: bold;
+.menu li a{
+    font-weight: bold;      
+}
+
+li {
     color: rgb(14, 80, 155);
-    
+}
+
+p {
+    color: rgb(14, 80, 155);
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 48%;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 1%;
+    box-shadow: 0px 0px 16px -3px #31332F;
+}
+
+.foto {
+    display: block;
+    border-radius: 33px;
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+}
+
+h1, h2 {
+    text-align: right;
+    position: relative;
+    padding-bottom: 5px;
+  /*  padding-left: 30px;*/
+}
+
+h1::after, h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 80%;
+    height: 4px; 
+    border: 1px solid #1e2099;
+    background-color: #1e2099;
+    border-radius: 4px;
+}
+
+p { text-indent: 30px; }
+
+.list {
+    list-style: none;
 }
 
 footer {
@@ -48,7 +101,31 @@ footer {
 }
 
 @media (min-width: 1000px) {
-    header, footer {
+    header, footer, main {
         max-width: 1000px;
     }
+}
+
+@media (max-width: 600px) {
+    section {
+        width: 100%;
+    }
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    text-rendering: optimizeLegibility;
+    color: #1e2099;
+    margin-right: 10px;
+    padding-bottom: -20px;
 }
