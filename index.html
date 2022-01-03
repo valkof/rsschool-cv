@@ -9,23 +9,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Valery Kofanov - CV</title>
 </head>
 <body>
   <header>
+    <div class="menu_mobile">
+      <span class="material-icons mobile">menu</span>
+    </div>
     <nav>
       <ul class="menu">
-        <li><a href="#" title="Contacts">Contacts</a></li>
-        <li><a href="#" title="Skills">Skills</a></li>
-        <li><a href="#" title="Education">Education</a></li>
-        <li><a href="#" title="Projects">Projects</a></li>
-        <li><a href="#" title="English">English</a></li>
-        <li><a href="#" title="Code">Code</a></li>
+        <li><a href="#contacts" title="Contacts">Contacts</a></li>
+        <li><a href="#skills" title="Skills">Skills</a></li>
+        <li><a href="#education" title="Education">Education</a></li>
+        <li><a href="#projects" title="Projects">Projects</a></li>
+        <li><a href="#codes" title="Code">Code</a></li>
+        <li><a href="#english" title="English">English</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
+    <section id="first">
       <img class="foto" src="./assets/img/KofanovVA.jpg" title="Valery Kofanov" alt="foto Valery Kofanov">
     </section>
     <section>
@@ -34,7 +37,7 @@
       <p>The purpose of my training on the course is to gain new and consolidate the already accumulated knowledge in the field of creating web applications. I hope that new knowledge will help me to realize my creative ideas.</p>
       <p>Of the positive aspects of my character, I would like to note poise, initiative and conscientiousness, and of the negative aspects - reliability.</p>
     </section>
-    <section>
+    <section id="contacts">
       <h2>Contacts</h2>
       <ul class="list">
         <li><span class="material-icons">location_on</span>Location: Brest, Belarus</li>
@@ -46,7 +49,7 @@
         <li><span class="material-icons">videocam</span>YouTube: <a href="https://www.youtube.com/channel/UC__bwua8kM4qmIgU7dxJbog/featured" title="Working channel">Valery Kofanov</a></li>
       </ul>
     </section>
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
       <ul>
         <li>HTML</li>
@@ -56,7 +59,7 @@
         <li>Visual Basic for Applications</li>
       </ul>
     </section>
-    <section>
+    <section id="education">
       <h2>Education</h2>
       <ul>
         <li><b>University:</b> Brest State Technical University</li>
@@ -65,7 +68,7 @@
         <li><b>Basics:</b> HTML - CSS - JS</li>
       </ul>
     </section>
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
       <p>GitHub</p>
       <ul>
@@ -77,14 +80,8 @@
         <li><a href="https://www.youtube.com/watch?v=c87C3BwvrF4" title="Online exam in Google Classroom managed by Google Sheets">Online exam in Google Classroom managed by Google Sheets</a></li>
       </ul>
     </section>
-    <section>
-      <h2>English</h2>
-      <p>English level - A1</p>
-    </section>
-    <section>
+    <section id="codes">
       <h2>Code</h2>
-      <p>The input will be an array of dictionaries.
-      Return the values as a string-seperated sentence in the order of their keys' integer equivalent (increasing order).</p>
       <pre>
         <code>
 function sentence(List) {
@@ -102,6 +99,10 @@ function sentence(List) {
         </code>
       </pre>
     </section>
+    <section id="english">
+      <h2>English</h2>
+      <p>English level - A1</p>
+    </section>
   </main>
   <footer>
     <a href="https://github.com/valkof" title="@valkof">@valkof</a>
@@ -110,5 +111,6 @@ function sentence(List) {
       <img src="https://rs.school/images/rs_school_js.svg" width="70px">
     </a>
   </footer>
+  <script src="./index.js"></script>
 </body>
 </html>
